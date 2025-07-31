@@ -1,0 +1,2 @@
+# typeStudy
+typeScript study
