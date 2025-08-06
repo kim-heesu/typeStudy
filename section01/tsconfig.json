@@ -1,0 +1,14 @@
+{  
+    "compilerOptions": {
+        "skipLibCheck": true, // 타입정의파일의 타입검사 생략
+        "target": "esnext", // 컴파일 후 자바스크립트 버전을 지정
+        "module": "esnext", // 모듈시스템 설정
+        "outDir": "dist", // 컴파일된 자바스크립트 파일의 위치를 지정
+        "strict": false, // 엄격한 검사모드
+        "moduleDetection": "force", // 각각의 파일을 어떤 모듈로 감지할것인지
+    },
+    "ts-node": {
+        "esm": true
+    },
+    "include": ["src"] // src경로 아래 모든파일을 포함해서 한번에 컴파일, tsc
+}
