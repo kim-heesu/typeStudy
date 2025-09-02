@@ -1,27 +1,27 @@
 // 클래스
 
-// let studentA = {
-//     name:'heesu',
-//     grade: "A",
-//     age: 27,
-//     study(){
-//         console.log('공부중')
-//     },
-//     instroduce(){
-//         console.log('hi')
-//     }
-// }
-// let studentB = {
-//     name:'heesu',
-//     grade: "A",
-//     age: 27,
-//     study(){
-//         console.log('공부중')
-//     },
-//     instroduce(){
-//         console.log('hi')
-//     }
-// }
+let studentA = {
+    name:'heesu',
+    grade: "A",
+    age: 27,
+    study(){
+        console.log('공부중')
+    },
+    instroduce(){
+        console.log('hi')
+    }
+}
+let studentB = {
+    name:'heesu',
+    grade: "A",
+    age: 27,
+    study(){
+        console.log('공부중')
+    },
+    instroduce(){
+        console.log('hi')
+    }
+}
 
 // 클래스는 파스칼표기법을 쓴다.
 class Student {
