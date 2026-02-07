@@ -6,7 +6,7 @@
 
 // 인덱스드 엑세스타입
 // 객체예시
-interfact Post {
+interface Post {
   title: string;
   content: string;
   author: {
@@ -20,7 +20,7 @@ interfact Post {
 // 만약 author중 id 타입만 사용하고 싶을 경우 Post['author']['id'] 이런식으로도 사용할 수 있다.
 
 function printAuthorInfo(author:Post['author']){
-  console.lot(`${author.name}-${author.id}`)
+  console.log(`${author.name}-${author.id}`)
 }
 const post :Post ={
   title:"title",
@@ -59,7 +59,7 @@ const postList: PostList[number] = [
 // 배열타입에서 특정 프로퍼티를 뽑아 사용하려면 
 // 먼저 PostList[number] 처럼 인덱스로 배열에 접근한뒤
 // PostList[number]["author"] 처럼 필요한 프로퍼티만을 뽑아서 사용한다.
-function printAuthorInfo(author:PostList[number]["author"]){
+function printAuthorInfo2(author:PostList[number]["author"]){
   console.log(`${author.name}-${author.id}`);
 }
 
